@@ -27,14 +27,14 @@
         <snapshotRepository>
             <id>az-repositories</id>
             <name>AZ RDI Snapshot Repository</name>
-            <url>https://artifactory.astrazeneca.net/mvn_l_az-snapshots/</url>
+            <url>https://artifactory.net/mvn_l_az-snapshots/</url>
             <uniqueVersion>false</uniqueVersion>
         </snapshotRepository>
         
         <repository>
             <id>az-repositories</id>
             <name>AZ RDI Release Repository</name>
-            <url>https://artifactory.astrazeneca.net/mvn_l_az-releases/</url>
+            <url>https://artifactory.net/mvn_l_az-releases/</url>
             <uniqueVersion>false</uniqueVersion>
         </repository>
     </distributionManagement>
@@ -52,7 +52,7 @@
                 <updatePolicy>always</updatePolicy>
                 <checksumPolicy>ignore</checksumPolicy>
             </snapshots>
-            <url>https://artifactory.astrazeneca.net/mvn_v_az-repositories/</url>
+            <url>https://artifactory.net/mvn_v_az-repositories/</url>
             <layout>default</layout>
         </repository>
     </repositories>
@@ -71,7 +71,7 @@
                 <updatePolicy>always</updatePolicy>
                 <checksumPolicy>ignore</checksumPolicy>
             </snapshots>
-            <url>https://artifactory.astrazeneca.net/mvn_v_az-repositories/</url>
+            <url>https://artifactory.net/mvn_v_az-repositories/</url>
             <layout>default</layout>
         </pluginRepository>
     </pluginRepositories>
