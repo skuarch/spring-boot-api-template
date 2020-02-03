@@ -67,11 +67,6 @@ These are the values for **SPRINGBOOT_PROFILE** var
 
 Another way to run is to type the command `./bash-scripts/start.sh` inside of the root folder.
 
-### Logging/kibana:
-user: alsdeveloper
-pass: logsplease
-url: http://logging.astrazeneca.net/
-
 ### Requirements:
 
 * maven
